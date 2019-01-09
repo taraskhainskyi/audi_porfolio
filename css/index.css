@@ -1,0 +1,398 @@
+.container {
+    max-width: 1100px;
+    margin: auto;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: black;
+}
+
+.concept-box {
+    min-height: 500px;
+    background-image: url(../img/conceptnew.jpg);
+    background-position: center;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.concept-box h1 {
+    font-size: 70px;
+}
+
+.concept-box p {
+    font-size: 20px;
+}
+
+.concept-box button {
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    border: none;
+}
+
+.world-box {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.world-box h2 {
+    font-size: 70px;
+    font-weight: 700;
+}
+
+.world-box p {
+    font-size: 15px;
+    margin-top: 15px;
+    max-width: 600px;
+    margin: auto;
+    padding: 20px 0px 40px 0px;
+}
+
+.first-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 4px;
+}
+
+.electric-img {
+    width: 100%;
+}
+
+.second-list {
+    margin-top: 15px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 5px;
+}
+
+.same-p {
+    color: silver;
+    font-size: 13px;
+}
+
+.same-list h2 {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.same-list p {
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+.diferent-p {
+    font-size: 10px;
+}
+
+.sport-box {
+    background-image: url(../img/motosport.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #d6d4d4;
+}
+
+.sport-box img {
+    width: 100%;
+    border: 1px solid white;
+    margin-left: 40px;
+}
+
+.sport-close {
+    width: 500px;
+    margin-left: 100px;
+}
+
+.sport-close p {
+    font-size: 20px;
+}
+
+.sport-close h2 {
+    font-size: 40px;
+    color: #fff;
+}
+
+.sport-close button {
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+.experience-list {
+    margin-top: 15px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-column-gap: 5px;
+}
+
+.experience-title {
+    text-align: center;
+    font-size: 70px;
+    font-weight: 700;
+    margin: 30px 0px 50px 0px;
+}
+
+.models-box {
+    background-image: url(../img/models.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    color: black;
+}
+
+.models-box img {
+    width: 100%;
+    border: 1px solid silver;
+    margin-left: 40px;
+}
+
+.models-close p {
+    font-size: 20px;
+}
+
+.models-close h2 {
+    font-size: 40px;
+}
+
+.models-close {
+    margin-left: 100px;
+}
+
+.models-close button {
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0);
+    color: black;
+    border: 1px solid silver;
+}
+
+.icon {
+    font-size: 40px;
+}
+
+.footer-icon {
+    text-align: center;
+    margin: 50px 0px;
+}
+
+.footer-list {
+    display: flex;
+    justify-content: center;
+    color: silver;
+}
+
+.icon i {
+    margin-left: 30px;
+}
+
+.footer-list p {
+    margin-left: 20px;
+}
+
+.footer-information {
+    color: silver;
+    font-size: 10px;
+    margin-top: 30px;
+
+}
+@media (max-width: 400px) {
+    .container {
+        margin: auto;
+
+    }
+    .concept-box h1 {
+        font-size: 15px;
+    }
+    .concept-box p {
+        font-size: 10px;
+    }
+    .world-box h2 {
+        font-size: 15px;
+        font-weight: 500;
+    }
+    .world-box p {
+        font-size: 10px;
+    }
+    .first-list {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-column-gap: 2px;
+    }
+    .same-list p {
+        margin-top: 10px;
+        font-size: 10px;
+    }
+    .second-list {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-column-gap: 2px;
+    }
+    .sport-close p {
+        font-size: 10px;
+    }
+    .sport-close h2 {
+        font-size: 15px;
+    }
+    .sport-close button {
+        font-size: 10px;
+    }
+    .experience-title {
+        text-align: center;
+        font-size: 40px;
+        font-weight: 500;
+    }
+    .experience-list {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .models-close p {
+        font-size: 10px;
+    }
+    .models-close h2 {
+        font-size: 15px;
+    }
+    .models-close button {
+        font-size: 10px;
+    }
+    .footer-list p {
+        font-size: 10px;
+    }
+}
+@media (max-width: 550px) {
+    .container {
+        margin: auto;
+
+    }
+    .concept-box h1 {
+        font-size: 17px;
+    }
+    .concept-box p {
+        font-size: 13px;
+    }
+    .world-box h2 {
+        font-size: 17px;
+        font-weight: 500;
+    }
+    .world-box p {
+        font-size: 13px;
+    }
+    .first-list {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-column-gap: 2px;
+    }
+    .same-list p {
+        margin-top: 10px;
+        font-size: 10px;
+    }
+    .second-list {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-column-gap: 2px;
+    }
+    .sport-close p {
+        font-size: 13px;
+    }
+    .sport-close h2 {
+        font-size: 17px;
+    }
+    .sport-close button {
+        font-size: 13px;
+    }
+    .experience-title {
+        text-align: center;
+        font-size: 40px;
+        font-weight: 500;
+    }
+    .experience-list {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .models-close p {
+        font-size: 13px;
+    }
+    .models-close h2 {
+        font-size: 17px;
+    }
+    .models-close button {
+        font-size: 13px;
+    }
+    .footer-list p {
+        font-size: 13px;
+    }
+}
+@media (max-width: 700px) {
+    .container {
+        margin: auto;
+
+    }
+    .concept-box h1 {
+        font-size: 20px;
+    }
+    .concept-box p {
+        font-size: 15px;
+    }
+    .world-box h2 {
+        font-size: 20px;
+        font-weight: 500;
+    }
+    .world-box p {
+        font-size: 15px;
+    }
+    .first-list {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 2px;
+    }
+    .same-list p {
+        margin-top: 10px;
+        font-size: 15px;
+    }
+    .second-list {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-column-gap: 2px;
+    }
+    .sport-close p {
+        font-size: 15px;
+    }
+    .sport-close h2 {
+        font-size: 20px;
+    }
+    .sport-close button {
+        font-size: 15px;
+    }
+    .experience-title {
+        text-align: center;
+        font-size: 40px;
+        font-weight: 500;
+    }
+    .experience-list {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .models-close p {
+        font-size: 15px;
+    }
+    .models-close h2 {
+        font-size: 20px;
+    }
+    .models-close button {
+        font-size: 15px;
+    }
+    .footer-list p {
+        font-size: 15px;
+    }
+}
