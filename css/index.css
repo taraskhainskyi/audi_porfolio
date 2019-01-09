@@ -362,7 +362,7 @@
     }
     .second-list {
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr;
         grid-column-gap: 2px;
     }
     .sport-close p {
